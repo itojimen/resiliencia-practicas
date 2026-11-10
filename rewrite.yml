@@ -1,0 +1,7 @@
+type: specs.openrewrite.org/v1beta/recipe
+name: com.ntt.formacion.SubirLibreria
+recipeList:
+  - org.openrewrite.maven.UpgradeDependencyVersion:
+      groupId: com.h2database
+      artifactId: h2
+      newVersion: 2.2.220
